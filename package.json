@@ -1,0 +1,10 @@
+{
+  "name": "imagepathcolorpicker",
+  "version": "1.0.2",
+  "description": "Gets the main color present in an image from the file path.",
+  "type": "module",
+  "main": "getcolor.js",
+  "scripts": {},
+  "author": "Felipe Ortiz",
+  "license": "ISC"
+}
