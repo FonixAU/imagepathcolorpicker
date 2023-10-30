@@ -6,5 +6,8 @@
   "main": "getcolor.js",
   "scripts": {},
   "author": "Felipe Ortiz",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "@FonixAU:registry": "https://npm.pkg.github.com"
+  }
 }
