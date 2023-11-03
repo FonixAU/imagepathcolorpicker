@@ -132,14 +132,9 @@ export function getColor(imagePath) {
       // Get the top 5 colors
       for(let i = remainingColours; i < 5 ; i++){
         for (let j = remainingColours; j < leanientColors.length - remainingColours ; j++)
-        if(top5temp[i] != leanientTop[j] ){
-          if(top5temp.length == 5){
-
-          }
-          else{
-          top5temp.push(leanientColors[j]);
-          }
-
+        if (!top5temp.includes(leanientTop[j])) {
+          top5temp.push(leanientTop[j]);
+          break; // Exit the loop after adding a unique color
         }
       }
     }
